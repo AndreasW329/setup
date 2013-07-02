@@ -42,3 +42,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Heroku
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# checkout current project
+git clone https://github.com/AndreasW329/glokum.git
+
