@@ -15,6 +15,8 @@ nvm use v0.10.12
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
 npm install -g jshint
+npm install cheerio
+npm install commander
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
@@ -45,6 +47,5 @@ ln -sf dotfiles/.emacs.d .
 # Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-# checkout current project
+# checkout current project and get some modules
 git clone https://github.com/AndreasW329/bitstarter
-
