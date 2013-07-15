@@ -46,5 +46,5 @@ ln -sf dotfiles/.emacs.d .
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # checkout current project
-git clone https://github.com/AndreasW329/glokum.git
+git clone https://github.com/AndreasW329/bitstarter
 
